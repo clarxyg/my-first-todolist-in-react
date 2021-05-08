@@ -1,0 +1,67 @@
+
+.app {
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    padding: 15px;
+    
+   
+    
+}
+
+.field {
+    font-size: 17px;
+    border-radius: 3px;
+    width: 314px;
+    outline: none;
+    border-right: none;
+}
+
+.button {
+    width: 88px;
+    height: 25.5px;
+    font-size: 14px;
+    border-radius: 3px;
+    border-left: none;
+    color: white;
+    background-color: rgb(49, 49, 197);
+    cursor: pointer;
+}
+
+.task-card {
+    margin-top: 25px;
+    border: solid 2px rgb(160, 160, 160);
+    
+    box-shadow: 1px 1px 1.5px rgb(104, 102, 102);
+    width: 422px;
+    
+    
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.actions > button {
+    margin-right: 5px;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    height: 25px;
+    border: none;
+    
+
+}
+
+.button1.-complete:hover {
+    background-color: rgb(164, 219, 164);
+}
+
+.button1.-delete:hover{
+    background-color: rgb(255, 139, 139);
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
